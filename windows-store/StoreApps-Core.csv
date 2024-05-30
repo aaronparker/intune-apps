@@ -2,7 +2,6 @@
 AV1 Video Extension,9MVZQVXJBQ9V,System,Required,AllDevices
 Company Portal,9WZDNCRFJ3PZ,User,Required,AllUsers
 HEIF Image Extensions,9PMMSR1CGPWG,System,Required,AllDevices
-Microsoft 365 (Office),9WZDNCRD29V9,User,Available,AllUsers
 Microsoft Journal,9N318R854RHH,User,Available,AllUsers
 Microsoft Loop,9P1HQ5TQZMGD,User,Available,AllUsers
 Microsoft Photos,9WZDNCRFJBH4,User,Available,AllUsers
@@ -11,7 +10,6 @@ Microsoft Sticky Notes,9NBLGGH4QGHW,User,Available,AllUsers
 Microsoft Whiteboard,9MSPC6MP8FM4,User,Available,AllUsers
 Movies & TV,9WZDNCRFJ3P2,User,Available,AllUsers
 MPEG-2 Video Extension,9N95Q1ZZPMH4,System,Required,AllDevices
-MSN Weather,9WZDNCRFJ3Q2,User,Available,AllUsers
 OneDrive,9WZDNCRFJ1P3,User,Available,AllUsers
 Power Automate,9NFTCH6J7FHV,User,Available,AllUsers
 Quick Assist,9P7BP5VNWKX5,System,Required,AllDevices
