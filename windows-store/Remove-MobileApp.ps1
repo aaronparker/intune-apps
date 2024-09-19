@@ -64,6 +64,7 @@ process {
                 Headers     = $authHeader
                 ErrorAction = "Stop"
             }
+            Write-Msg -Msg "Deleting application: '$($App.displayName)'"
             Invoke-RestMethod @params
         }
     }

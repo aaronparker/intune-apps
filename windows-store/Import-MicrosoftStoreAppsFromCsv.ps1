@@ -82,6 +82,7 @@ process {
         #region Get the icon for the app
         Write-Msg -Msg "Get the icon for this application."
         $imageUrl = "https://apps.microsoft.com/store/api/ProductsDetails/GetProductDetailsById/{0}?hl=en-US&gl=US" -f $App.PackageIdentifier
+        Write-Msg -Msg "Get icon from: '$imageUrl'"
         $image = Invoke-RestMethod -Uri $imageUrl -Method "GET" -ErrorAction "Stop"
         $base64Icon = [System.Convert]::ToBase64String((Invoke-WebRequest -Uri $image.IconUrl -ErrorAction "Stop").Content)
         #endregion
